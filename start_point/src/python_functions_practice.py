@@ -1,5 +1,5 @@
 def return_10():
-      return 10
+    return 10
 
 def add(num_1, num_2):
     result = num_1 + num_2
@@ -14,22 +14,31 @@ def multiply(num_1, num_2):
     return multiply_result
 
 def divide(num_1, num_2):
-      divide_result = num_1 / num_2
-      return divide_result 
+    divide_result = num_1 / num_2
+    return divide_result 
 
 def length_of_string(string_length):
-      string = 21
-      return string
+    string = 21
+    return string
       
 def join_string(verse_part_one, verse_part_two):
     whole_verse = verse_part_one + verse_part_two
     return whole_verse 
 
 def add_string_as_number(string_1, string_2):
-        result = int(string_1) + int(string_2)
-        return result
+    result = int(string_1) + int(string_2)
+    return result
 
 import calendar
-def number_to_full_month_name(month_number):
-      return calendar.month_name[month_number]
-      
+def number_to_full_month_name(month_num):
+    return calendar.month_name[month_num]
+
+def number_to_full_month_name(month_num):
+    return calendar.month_name[month_num]
+
+def number_to_full_month_name(month_num):
+    return calendar.month_name[month_num]
+
+import calendar
+def number_to_short_month_name(first_month_string):
+    return calendar.month_abbr[first_month_string]
