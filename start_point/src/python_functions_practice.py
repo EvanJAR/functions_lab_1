@@ -21,4 +21,6 @@ def length_of_string(string_length):
       string = 21
       return string
       
-      
+def join_string(verse_part_one, verse_part_two):
+    whole_verse = verse_part_one + verse_part_two
+    return whole_verse 
