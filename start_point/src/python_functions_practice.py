@@ -24,3 +24,7 @@ def length_of_string(string_length):
 def join_string(verse_part_one, verse_part_two):
     whole_verse = verse_part_one + verse_part_two
     return whole_verse 
+
+def add_string_as_number(string_1, string_2):
+        result = int(string_1) + int(string_2)
+        return result
