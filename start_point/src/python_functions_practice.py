@@ -42,3 +42,20 @@ def number_to_full_month_name(month_num):
 import calendar
 def number_to_short_month_name(first_month_string):
     return calendar.month_abbr[first_month_string]
+
+def number_to_short_month_name(fourth_month_string):
+      return calendar.month_abbr[fourth_month_string]
+
+
+#further work
+
+
+
+#Given the length of a side of a cube calculate the volume
+def volume_of_cube(cube_length):
+    cube_volume = cube_length ** 3
+    return cube_volume
+    #add test code here
+    def test_volume_of_cube(self): 
+        cube_volume = cube_length_to_the_power_of_three( 4 )
+        self.assertEqual( 64, cube_volume )
