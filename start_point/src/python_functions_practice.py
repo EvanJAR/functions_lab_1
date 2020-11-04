@@ -28,3 +28,8 @@ def join_string(verse_part_one, verse_part_two):
 def add_string_as_number(string_1, string_2):
         result = int(string_1) + int(string_2)
         return result
+
+import calendar
+def number_to_full_month_name(month_number):
+      return calendar.month_name[month_number]
+      
